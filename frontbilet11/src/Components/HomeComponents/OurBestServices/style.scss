@@ -1,0 +1,52 @@
+.OurBestServices{
+    max-width: 100%;
+    min-height: 900px;
+    &__container{
+        width: 75%;
+        min-height: 900px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+        
+        &__column{
+            display: flex;
+            flex-direction: column;
+            &__title{
+
+                &__head{
+                    display: flex;
+                    align-items: center;
+                    color: red;
+                    gap: 20px;
+                    font-size: 18px;
+                    &__line{
+                        width: 50px;
+                        height: 2px;
+                        background-color: red;
+                    }
+                }
+                &__name{
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: #092c3f;
+                }
+            }
+            &__cardBox{
+                display: flex;
+                justify-content: space-between;
+
+                &__card{
+                    width: 300px;
+                    height: 500px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+        }
+    }
+}
